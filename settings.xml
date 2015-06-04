@@ -1,0 +1,22 @@
+<settings>
+    <profiles>
+        <profile>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <id>oosrh</id>
+            <properties>
+                <gpg.keyname>${env.keyname}</gpg.keyname>
+                <gpg.passphrase>${env.passphrase}</gpg.passphrase>
+                <gpg.secretKeyring>key.gpg</gpg.secretKeyring>
+            </properties>
+        </profile>
+    </profiles>
+    <servers>
+        <server>
+            <id>oosrh</id>
+            <username>${env.username}</username>
+            <password>${env.password}</password>
+        </server>
+    </servers>
+</settings>
