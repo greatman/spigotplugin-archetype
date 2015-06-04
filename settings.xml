@@ -8,7 +8,7 @@
             <properties>
                 <gpg.keyname>${env.keyname}</gpg.keyname>
                 <gpg.passphrase>${env.passphrase}</gpg.passphrase>
-                <gpg.secretKeyring>~/key.gpg</gpg.secretKeyring>
+                <gpg.secretKeyring>/home/travis/build/greatman/spigotplugin-archetype/key.gpg</gpg.secretKeyring>
             </properties>
         </profile>
     </profiles>
